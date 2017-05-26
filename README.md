@@ -1,5 +1,5 @@
 # Learning Machine Learning
-Demo code for the "Learning Machine Learning" presentation at [PHP Tour Nantes](http://event.afup.org/)
+Demo code for the "Learning Machine Learning" presentation at [PHP[tek]](https://tek.phparch.com/sessions/learning-about-machine-learning/)
 
 ## Tinder-like Naive Bayes Algorithm
 cd classifier
