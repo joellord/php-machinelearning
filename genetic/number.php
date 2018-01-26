@@ -5,7 +5,7 @@ class GeneticAlgorithm {
 	private $MUTATION = 25;
 
 	private $POPULATION_SIZE = 100;
-	private $CLOSE_ENOUGH = 0.01;
+	private $CLOSE_ENOUGH = 0.001;
 
 	private $NUM_COUNT = 4;
 	private $TARGET_SUM = 200;
@@ -157,6 +157,6 @@ $gen->setRetainRate(20);
 $gen->setRandomSelectionRate(10);
 $gen->setMutationRate(10);
 
-var_dump($gen->solve(4, 200));
+var_dump($gen->solve(4, 100));
 
 ?>
